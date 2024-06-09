@@ -36,7 +36,7 @@ const CartScreen = ({ route, navigation }) => {
             <Text style={{ fontSize: 20, marginBottom: 20 }}>
               Order Confirmed
             </Text>
-      
+
             <Pressable
               onPress={() => navigation.navigate(config.routes.HOME)}
               style={styles.modalButton}
@@ -44,7 +44,7 @@ const CartScreen = ({ route, navigation }) => {
               <Text>OK</Text>
             </Pressable>
             <Pressable
-                  onPress={() => setModalVisible(false)}
+              onPress={() => setModalVisible(false)}
               style={styles.modalButton}
             >
               <Text>Cancel</Text>
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 10,
     backgroundColor: config.colors.darkOrange,
-    marginBottom:20
+    marginBottom: 20,
   },
   imageModal: {
     width: 50,

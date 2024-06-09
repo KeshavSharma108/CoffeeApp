@@ -18,14 +18,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.keshav108.CoffeeApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "106c6fbd-b21c-471e-af4c-a2fcc4fd2fb2"
+      }
+    }
   }
 }
