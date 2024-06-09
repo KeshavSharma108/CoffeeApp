@@ -1,0 +1,1 @@
+export {default as FontFile} from './font'
